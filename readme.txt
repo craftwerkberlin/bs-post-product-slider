@@ -19,31 +19,31 @@ Post or Woocommerce product Slider for bootScore WordPress theme, made with Swip
 
 == Usage ==
 
-= Posts =
+    = Posts =
 
-Use shortcode to display your posts in a page:
+        Use shortcode to display your posts in a page:
 
-[post-slider type="post" category="sample-category" order="ASC" orderby="title" posts="12"]
+        [post-slider type="post" category="sample-category" order="ASC" orderby="title" posts="12"]
 
-Options:
+        Options:
 
-category: category slug
-order: ASC or DESC
-orderby: date or title
-posts: number of posts to display
+        category: category slug
+        order: ASC or DESC
+        orderby: date or title
+        posts: number of posts to display
 
-= Products =
+    = Products =
 
-Use shortcode to display your products in a page:
+        Use shortcode to display your products in a page:
 
-[bs-product-slider order="DESC" orderby="date" posts="12" category="sample-category, test-category"]
+        [bs-product-slider order="DESC" orderby="date" posts="12" category="sample-category, test-category"]
 
-Options:
+        Options:
 
-order: ASC or DESC
-orderby: date or title
-posts: number of posts to display
-category: category slug, seperated by comma for multiple categories
+        order: ASC or DESC
+        orderby: date or title
+        posts: number of posts to display
+        category: category slug, seperated by comma for multiple categories
 
 
 == Changelog ==
@@ -51,3 +51,11 @@ category: category slug, seperated by comma for multiple categories
     = 1.0.0 - October 12 2020 =
     
         * Initial release
+        * It is the merger of the two plugins bs-post-slider and bs-product-slider 
+        * Several instances can now be displayed per page.
+        * Shortcodes are the same as in the previous plugins
+        
+        
+== Credits ==
+
+Swiper: https://swiperjs.com/, MIT License
