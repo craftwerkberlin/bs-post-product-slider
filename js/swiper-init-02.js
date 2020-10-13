@@ -39,7 +39,6 @@ jQuery(document).ready(function ($) {
         });
     });
 
-    // Init
     $(window).on('mobile', function (e) {
         var swiper = new Swiper('.swiper-container', {
             slidesPerView: '1', //'auto'
@@ -88,6 +87,6 @@ jQuery(document).ready(function ($) {
              },
          });
      });
-    // Init End    
-    
+
+
 });
