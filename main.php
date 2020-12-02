@@ -2,7 +2,7 @@
 /*Plugin Name: bS Post / Product Slider
 Plugin URI: https://bootscore.me/plugins/bs-post-product-slider/
 Description: Post / Product slider for bootScore theme https://bootscore.me. Use Shortcode [bs-post-slider type="post" category="sample-category" order="ASC" orderby="title" posts="12"] to display posts or [bs-product-slider order="DESC" orderby="date" posts="12" category="theme, child-themes, free, plugins"] to show WooCommerce products. Check readme.txt in PlugIn folder for options.
-Version: 1.0.0
+Version: 1.0.1
 Author: Bastian Kreiter
 Author URI: https://crftwrk.de
 License: GPLv2
